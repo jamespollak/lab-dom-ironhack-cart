@@ -10,5 +10,87 @@
   <title>Ironhack cart</title>
 </head>
 <body>
+
+  <h1>Ironhack Merchandising Shop</h1>
+
+  <div class = "products">
+  <div class = "item1">
+  <div class = "product">
+    <div class = "product-name"><span>IronTop</span>
+    </div>
+
+    <div>£<span class="price">25</span>
+    </div>
+
+    <div class = "choose-quantity">
+    <label>QTY</label>
+    <input class = "quantity" type="number" value = "0">
+    </div>
+
+    <div>£<span class="subtotal">0</span>
+    </div>
+    
+    <button class = "btn-delete" onclick="deleteItem(this)">Delete</button>
+  </div>
+  </div>
+  <!--Product 2-->
+  <div class = "item2">
+  <div class = "product">
+  <div class = "product-name"><span>IronShirt</span>
+  </div>
+
+  <div>£<span class="price">15</span>
+  </div>
+
+  <div class = "choose-quantity">
+  <label>QTY</label>
+  <input class = "quantity" type="number" value = "0">
+  </div>
+
+  <div>£<span class="subtotal">0</span>
+  </div>
+
+  <button class = "btn-delete" onclick="deleteItem(this)">Delete</button>
+</div>
+</div>
+<!--Product 3-->
+<div class = "item3">
+  <div class = "product">
+  <div class = "product-name"><span>IronPants</span>
+  </div>
+
+  <div>£<span class="price">5</span>
+  </div>
+
+  <div class = "choose-quantity">
+  <label>QTY</label>
+  <input class = "quantity" type="number" value = "0">
+  </div>
+
+  <div>£<span class="subtotal">0</span>
+  </div>
+
+  <button class = "btn-delete" onclick="deleteItem(this)">Delete</button>
+</div>
+</div>
+</div>
+
+<!--<div class = "createitem">
+    <div class = "product">
+    <input class = "productname" type="text">
+      </div>
+  
+    <input class = "productprice" type="text">
+    </div>
+    </div>-->
+
+  <div class = "calculate-price">
+    <button class = "btn-success" onclick="createCalculatePrice()">Calculate Prices</button>
+  </div>
+
+  <div>
+  <h2>Total Price: £<span class ="totalprice">0</span></h2>
+</div>
+
 </body>
 </html>
